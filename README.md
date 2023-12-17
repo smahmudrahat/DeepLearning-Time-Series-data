@@ -27,10 +27,11 @@ Some proposals can be given to increase its efficiency and make it more robust.
 •	There may be thousands or millions of parallel data streams can be detected where all the data streams cannot be related. To detect these relations, self-attention can be introduced when building the model.  Attention can be useful in increasing the efficiency of the model. 
 •	Graph neural networks (GNN) can be applied to the model where each client can be identified as a node. And their relationship with different clients can be identified as edges. In graph neural networks, parallel time series data streams can be more connected. 
 2.	Increase efficiency: Deep Learning models are trained in millions of data. In multiple time series datasets, it can be more important to train the model more efficiently. Flash attention, fusion method, parallelization, etc. are applied to increase the efficiency. 
-Conclusion
+
+
 These models with the architectural design are capable of forecasting in multivariable time series data. It helps different dependencies and multivariable predictors with specific requirements. It helps to make the model more precise, accurate, and robust. In general, where the system and environment become complicated and convoluted to forecast, multivariable datasets can be helpful to dictate the forecast precisely and more accurately, measuring and evaluating complete dynamics. In practical applications like finance, healthcare, or supply chain management, decisions are rarely based on a single variable. These models can be efficient in these multivariable datasets. RNN model has some limitations for gradient vanishing, and LSTM has some constraints on bottleneck when backpropagation. That’s why different convoluted autoregressive models, the N beats models or the DeepTCN models, can be helpful for forecasting. If the dataset proceeds with a million data series dataset, it can be computationally intensive to use the N beats model, but integrating attention in proper parallelization with each data stream can efficiently scale the data. Also, a Graph Neural Network may help forecast the model. In conclusion, it can be said that deep learning can be more efficient than statistical learning in multivariable datasets. 
 
-![image](https://github.com/smahmudrahat/DeepLearning-Time-Series-data/assets/112737551/e8d19822-7238-4227-9cc6-8ba38d971685)
+
 
 
 
